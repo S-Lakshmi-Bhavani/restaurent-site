@@ -1,0 +1,17 @@
+/* footer{
+    
+    bottom: 0;
+    padding:0px;
+    margin:0px;
+} */
+footer ul li{
+    list-style-type: none;
+    display: flex;
+     display:inline-block;
+     
+     /* margin-right:10px;    */
+}
+footer hr{
+height:5px white;
+
+}

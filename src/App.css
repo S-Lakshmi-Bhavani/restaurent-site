@@ -1,0 +1,94 @@
+
+.navbg{
+    background-color: rgb(218, 224, 224);
+}
+ @keyframes anim{
+    from{transform:translate(100px,0px); }
+    to{transform:translate(0px,0px);}
+}   
+#imgdelicious{
+      animation:anim 2s; 
+      /* width:370px;*/
+}
+.description{
+    font-weight:300;
+    font-size: 40px;
+    margin-left: 0px;
+    position: relative;
+    top:60px;
+    font-family: 'Cinzel', serif;
+}
+.mainpara{
+    border-left:solid 2px black;
+    text-align:justify;
+    padding:10px;
+    margin-left  :15px;
+    position: relative;
+    top:70px;
+    /* animation:anim 2s;  */
+}
+
+  /* .videomain{
+   border:5px solid red; 
+    padding:0px;
+    margin:0px;
+    width: 100%;
+    height:90%;
+    
+ background-color: black; 
+    height: 400px; 
+}   */
+
+.chover{
+    position:absolute;
+    bottom:-200px;
+    /* opacity:0.5; */
+    transition:all 1s;
+    /* background-color: blueviolet; */
+}
+ .card:hover  .chover{
+    bottom:0px;
+    /* background-color: aqua; */
+    cursor: pointer;
+    /* opacity:0.5; */
+    font-weight: 400;
+    font-size: 15px;
+    border-radius: 20px 20px 0px 0px;
+    background-color: rgba(220, 238, 238, 0.6);
+}
+.cardbtn{
+    background-color:rgb(57, 61, 68, 0.7);
+    font-family:'Times New Roman', Times, serif;
+}
+.hrstyle{
+    height:2px;
+    }
+.imgrow5{
+    width:710px;
+    height:600px;
+}
+.parabesideres{
+    font-family: 'Lato', sans-serif;
+    font-size:16px;
+    /* text-align: justify; */
+}
+ /* .bxshadow{
+    /* border-radius: 10%;
+    box-shadow:0px 30px 30px  black;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
